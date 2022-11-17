@@ -9,19 +9,29 @@
         "path": "pages/cate/cate",
         "style": {}
     }, {
-        "path": "pages/test/test",
-        "style": {}
-    }, {
         "path": "pages/my/my",
         "style": {
             "navigationBarTitleText": "", // 会覆盖导航栏
             "enablePullDownRefresh": false
         }
     }],
+    "subPackages": [{
+        "root": "subpkg",
+        "pages": [{
+            "path": "goods_detail/goods_detail",
+            "style": {}
+        }    ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {}
+                
+                }
+            ]
+    }],
     "globalStyle": {
         "navigationBarTextStyle": "black",
         "navigationBarTitleText": "uni-app",
-        "navigationBarBackgroundColor": "#007AFF",
+        "navigationBarBackgroundColor": "#ff0000",
         "backgroundColor": "#FFFFFF",
         "app-plus": {
             "background": "#efeff4"
