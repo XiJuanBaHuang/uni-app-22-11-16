@@ -23,7 +23,9 @@
         }, {
             "path": "goods_list/goods_list",
             "style": {}
-
+        }, {
+            "path": "search/search",
+            "style": {}
         }]
     }],
     "globalStyle": {
